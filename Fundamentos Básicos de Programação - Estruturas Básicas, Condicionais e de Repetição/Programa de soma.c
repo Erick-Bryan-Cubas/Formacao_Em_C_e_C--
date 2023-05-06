@@ -1,7 +1,11 @@
 /* Programa de soma */
-#include<stdio.h>
+#include <stdio.h>
+#include <locale.h>
+#include <windows.h>
 
 int main(){
+    setlocale(LC_ALL, "");
+    SetConsoleTitle("Programa de soma");
     int int1, int2, soma; /* declaração */
 
     printf("Entre com o primeiro inteiro; \n"); /* prompt*/
